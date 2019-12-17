@@ -1,0 +1,58 @@
+.block{
+    position: relative;
+    width:50%;
+    float: left;
+    height:calc(20vh + 30vw);
+}
+.img_block{
+    position: relative;
+    width:100%;
+    height:calc(15vw + 12vh);
+}
+.face{
+    position:relative;
+    left:33%;
+    top:10vh;
+    height: 15vw;
+    width: 15vw;
+    border:solid 2px black;
+    border-radius:50%;
+}
+.details{
+    font-family: Solway;
+    font-style: normal;
+    font-weight: bold;
+    text-align:center;
+    font-size:1.5vw;
+}
+.name{
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+}
+.add{
+    position: relative;
+    color:black;
+    z-index: -1;
+    font-family: Source Sans Pro;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 1.85vw;
+    line-height: 5vmin;
+    text-align: center;
+}
+.mail{
+    text-decoration: none;
+    color:black;
+}
+.mail:hover{
+    color:grey;
+}
+@media only screen and (max-width: 620px)
+{
+    .block{
+        width:100%;
+    }
+    .face{
+        left:45%;
+    }
+}

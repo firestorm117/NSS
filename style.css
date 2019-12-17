@@ -36,6 +36,14 @@ line-height: 43px;
 text-align: center;
 letter-spacing: 0.3em;
 color: #F2F2F2;
+
+animation-name: iit_move;
+animation-duration: 4s;
+}
+
+@keyframes iit_move {
+  from {left:100%;}
+  to {left:60px;}
 }
 .hed_blood
 {
@@ -61,8 +69,21 @@ text-align: center;
 letter-spacing: 0.05em;
 
 color: #F2F2F2;
+animation-name: blood_move;
+animation-duration: 4s;
+transition: transform 1s;
 }
-
+.hed_blood:hover
+{
+  transform: scale(1.1);
+  background: #F2F2F2;
+  color: #FF0000;
+  
+}
+@keyframes blood_move {
+  from {right:100%;}
+  to {right:5%;}
+}
 .body_title
 {
     
@@ -85,6 +106,12 @@ color: #000000;
 
 
 text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+
+transition: transform 1s;
+}
+.body_title:hover
+{
+  transform: scale(1.05);
 }
 .content
 {
@@ -144,7 +171,6 @@ z-index:1;
     top:25vh;
     width:100%;
     z-index: -1;
-    
 }
 .line{
   position:relative;
@@ -256,10 +282,33 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .foot{
 position:relative;
 left:-2%;
-width: 120%;  
+width: 100.3vw;  
 height:30vh;
 background: #283655;
 
+font-family: Sorts Mill Goudy;
+font-style: bold;
+font-weight: normal;
+font-size: 1.8vw;
+line-height: 2vh;
+text-align: center;
+letter-spacing: 0.35em;
+
+color: #FFFFFF;
+}
+.hype{
+  font-family: Sorts Mill Goudy;
+font-style: bold;
+font-weight: normal;
+font-size: 1.8vw;
+line-height: 2vh;
+text-align: center;
+letter-spacing: 0.35em;
+text-decoration: none;
+color: #FFFFFF;
+}
+.hype:hover{
+  color:#629595;
 }
 @media only screen and (max-width: 1300px) {
 
