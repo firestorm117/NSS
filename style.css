@@ -10,7 +10,7 @@ left: 0px;
 top: 0px;
 background: linear-gradient(90deg, #283655 38.6%, #DA2D2D 97.53%);
 opacity: .95;
-z-index: 1;
+z-index: 10;
 box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 .hed_img
@@ -141,7 +141,7 @@ transition: transform 1s;
     font-size: 1.85vw;
     line-height: 5vmin;
     text-align: center;
-    
+
     color: #085C11;
   }
   .body_text2 {
@@ -360,5 +360,11 @@ color: #FFFFFF;
 {
   .top{
     height:150vw;
+  }
+  .foot{
+    font-size: 2.5vw;
+  }
+  .hype{
+    font-size: 2.5vw;
   }
 }
