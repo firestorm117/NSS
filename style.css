@@ -1,5 +1,5 @@
 .top{
-  height:200vh;
+  height:180vh;
 }
 .hed
 {
@@ -119,18 +119,18 @@ transition: transform 1s;
     top:150px;
     width:100%
 }
-.left {
-    width:25%; 
+.mar {
+    width:4%; 
     float:left;
   }
   
   .main {
-    width:50%; 
+    width:42%; 
     float:left;
     
   }
   
-  .right {
+  .blk {
     width:25%;
     float:left;
   }
@@ -138,9 +138,9 @@ transition: transform 1s;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.85vw;
+    font-size: 1.6vw;
     line-height: 5vmin;
-    text-align: center;
+    text-align:justify;
 
     color: #085C11;
   }
@@ -168,7 +168,7 @@ z-index:1;
 }
 .tree {
     position :relative;
-    top:25vh;
+    top:20vh;
     width:100%;
     z-index: -1;
 }
@@ -330,7 +330,7 @@ color: #FFFFFF;
     border-bottom: 1px solid #085C11;
   }
   .top{
-    height:100vw;
+    height:90vw;
   }
   .line_ver1{
     top:calc(calc(var(--width) / 2 ) - 2.699vh);
@@ -346,7 +346,7 @@ color: #FFFFFF;
     top: -2vh;
     }
     .top{
-      height:150vmin;
+      height:130vmin;
     }
     .line_ver1{
       --width:33vh;
@@ -359,7 +359,7 @@ color: #FFFFFF;
 @media only screen and (max-width: 620px)
 {
   .top{
-    height:150vw;
+    height:135vw;
   }
   .foot{
     font-size: 2.5vw;
