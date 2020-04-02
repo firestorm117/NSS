@@ -1,2 +1,2 @@
 # NSS
-landing_page is the startup file
+https://firestorm117.github.io/NSS/landing_page.html
